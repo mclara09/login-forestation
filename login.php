@@ -50,7 +50,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<h1>Bienvenidos a Forestation Tracker</h1>
+	<h1>Forestation Tracker</h1>
 	<title>Login</title>
 </head>
 <body background="https://startupsoasis.com/wp-content/uploads/2020/12/reforestacion-startups-espana-1-1024x445-1.jpg">
@@ -96,7 +96,7 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 30px;margin: 10px; padding: 20px;color: white; text-align: center;">Iniciar Sesión</div>
+			<div style="font-size: 30px;margin: 10px; padding: 20px;color: white; text-align: center;">Bienvenidos</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
