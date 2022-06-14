@@ -35,7 +35,7 @@ session_start();
 <head>
 	<title>Signup</title>
 </head>
-<body>
+<body background="https://startupsoasis.com/wp-content/uploads/2020/12/reforestacion-startups-espana-1-1024x445-1.jpg">
 
 	<style type="text/css">
 	
@@ -51,18 +51,21 @@ session_start();
 	#button{
 
 		padding: 10px;
-		width: 100px;
+		width: 310px;
 		color: white;
-		background-color: lightblue;
+		background-color: #2E8428;
 		border: none;
+		
 	}
 
 	#box{
 
-		background-color: grey;
+		background-color: #384D23;
 		margin: auto;
 		width: 300px;
 		padding: 20px;
+		box-shadow: 10px 5px 5px black;
+		
 	}
 
 	</style>
@@ -70,14 +73,14 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
+			<div style="font-size: 30px;margin: 10px;padding: 20px; color: white; text-align: center;">Registrarse</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
 
 			<input id="button" type="submit" value="Signup"><br><br>
 
-			<a href="login.php">Click to Login</a><br><br>
+			<a style="color: black;padding: 0px 0px 0px 100px;" href= login.php>Regresar a Login</a><br><br>
 		</form>
 	</div>
 </body>

@@ -69,7 +69,7 @@ session_start();
 	#button{
 
 		padding: 10px;
-		width: 100px;
+		width: 310px;
 		color: white;
 		background-color: #2E8428;
 		border: none;
@@ -81,6 +81,7 @@ session_start();
 		margin: auto;
 		width: 300px;
 		padding: 20px;
+		box-shadow: 10px 5px 5px black;
 	}
 
 
@@ -95,14 +96,14 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 30px;margin: 10px;color: white; text-align: center;">Login</div>
+			<div style="font-size: 30px;margin: 10px; padding: 20px;color: white; text-align: center;">Iniciar Sesión</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
 
 			<input id="button" type="submit" value="Login"><br><br>
 
-			<a style= "color: black; font-family"href= signup.php>Registrarse</a><br><br>
+			<a style= "color: black;padding: 0px 0px 0px 115px;"href= signup.php>Registrarse</a><br><br>
 		</form>
 	</div>
 </body>
